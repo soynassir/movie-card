@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 247, 250);
+}
+
+main {
+    background-color: white;
+    box-shadow: 10px 10px 50px rgb(155, 154, 154);
+    /* border: 1px solid black; */
+    width: 1000px;
+    height: 600px;
+    margin: 100px auto;
+    padding: 60px;
+}
+
+#header {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin-left: -40px;
+}
+
+ul {
+    margin-top: -12px;
+}
+
+#title {
+    font-size: 30px;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+
+h5 {
+    display: inline;
+    float: right;
+    font-size: 15px;
+    margin-top: 40px;
+    color: gray;
+}
+
+h4 {
+    display: block;
+    margin-top: -18px;
+}
+
+#img-sec {
+    display: inline-block;
+    /* border: 1px solid black; */
+}
+
+#about {
+    display: inline;
+    float: right;
+    width: 620px;
+    /* border: 1px solid black; */
+    margin-right: 30px;
+    padding-left: 20px;
+    margin-top: -20px;
+}
+
+#actors {
+    display: inline;
+    float: left;
+    width: 195px;
+}
+
+#more {
+    margin-top: 10px;
+}
+
+#producers {
+    display: inline;
+    float: right;
+    width: 200px;
+}
+
+#directors{
+    display: inline-block;
+    width: 200px;
+}
+
+section {
+    display: inline-block;
+}
+
+img {
+    width: 220px;
+}
+
+span {
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+legend {
+    /* border: 1px solid #000000; */
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#buy {
+    display: inline;
+    float: right;
+    font-size: 15px;
+    min-width: 80px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: -20px;
+}
+
+#trailer {
+    border: none;
+    float: right;
+    font-size: 12px;
+    min-width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+}
